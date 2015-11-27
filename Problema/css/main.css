@@ -1,0 +1,42 @@
+/* Inserta tu código aqui */
+/*{
+	outline: 1px solid red;
+}¨*/
+.icono{
+	width: 15px;
+}
+.form-group{
+	margin-top: 3px;
+}
+.btn_btn-default{
+	margin-top: 20px;
+}
+.form-control .btn_btn-default{
+	height: 15px;
+}
+.menu-list .list-nav li{
+	display: inline-block;
+	padding: 0 20px;
+	margin-top: -25px;
+}
+.list-nav a{
+	color:black;
+	font-weight: bold;
+}
+.unico{
+	border-right: 1px solid black;
+}
+.menu-nav .list-nav li{
+	display: inline-block;
+}
+.list li{
+	display: inline-block;
+}
+.fondo{
+	background: url(../img/imagenblanca.jpg);
+	height: 200px;
+}
+.list_bloque li {
+	list-style: none;
+	padding: 0;
+}
