@@ -27,6 +27,12 @@
 .list-nav li a{
 	color: black;
 	font-weight: bold;
+	transition:all 0.5s;
+}
+.list-nav a:hover{
+    text-decoration: none;
+    background: white;
+    transform: scale(1.2)
 }
 .container_menu {
     background-color:#D8D8D8; 
