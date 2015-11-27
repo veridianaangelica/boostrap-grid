@@ -8,20 +8,26 @@
 .form-group{
 	margin-top: 3px;
 }
-.btn_btn-default{
+.list_nav li{
 	margin-top: 20px;
+	display: inline-block;
+	list-style: none;
+}
+.list_nav li a{
+	color: black;
+	font-weight: bold;
+	margin: -20px 15px 40px 0;
+}
+.list-nav li a{
+	color: black;
+	font-weight: bold;
 }
 .form-control .btn_btn-default{
 	height: 15px;
 }
-.menu-list .list-nav li{
-	display: inline-block;
-	padding: 0 20px;
-	margin-top: -25px;
-}
-.list-nav a{
-	color:black;
-	font-weight: bold;
+.container_menu {
+    background-color:#D8D8D8; 
+    height: 90px;
 }
 .unico{
 	border-right: 1px solid black;
@@ -39,4 +45,7 @@
 .list_bloque li {
 	list-style: none;
 	padding: 0;
+}
+.cuadro{
+	background-color: #D8D8D8;
 }
