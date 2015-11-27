@@ -1,12 +1,18 @@
 /* Inserta tu código aqui */
-/*{
+/**{
 	outline: 1px solid red;
-}¨*/
+}*/
 .icono{
 	width: 15px;
 }
 .form-group{
 	margin-top: 3px;
+}
+.list{
+	padding: 0;
+}
+.list li{
+	margin: 0;
 }
 .list_nav li{
 	margin-top: 20px;
@@ -22,9 +28,6 @@
 	color: black;
 	font-weight: bold;
 }
-.form-control .btn_btn-default{
-	height: 15px;
-}
 .container_menu {
     background-color:#D8D8D8; 
     height: 90px;
@@ -37,15 +40,35 @@
 }
 .list li{
 	display: inline-block;
+	padding: 0;
+	list-style: none;
 }
 .fondo{
 	background: url(../img/imagenblanca.jpg);
 	height: 200px;
 }
+.list_bloque{
+	padding: 0;
+}
 .list_bloque li {
 	list-style: none;
-	padding: 0;
+	margin: 0;
 }
 .cuadro{
 	background-color: #D8D8D8;
+}
+.general li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 40px 10px 40px;
+}
+.general .interno li{
+	list-style:none;
+	display: inline-block; 
+}
+.interno {
+	padding: 0;
+}
+.interno li{
+	margin: 0;
 }
